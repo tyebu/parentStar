@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="client" />
         <module name="ribbon" />
         <module name="feign" />
+        <module name="zuul" />
+        <module name="client" />
         <module name="eureka" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="feign" options="-parameters" />
       <module name="parentStar" options="-parameters" />
       <module name="ribbon" options="-parameters" />
+      <module name="zuul" options="-parameters" />
     </option>
   </component>
 </project>
